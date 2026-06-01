@@ -1207,7 +1207,26 @@ body {
     #menu-icon {
         display: block;
     }
+     .tab-titles {
+        flex-direction: column;
+        gap: 10px;
+    }
 
+    .tab-links {
+        font-size: 14px;
+        margin-right: 0;
+    }
+
+    .exp-card {
+        width: 100%;
+        height: auto;
+        overflow: visible;
+    }
+
+    .skill-container {
+        flex-direction: column;
+        padding-left: 0;
+    }
     .navbar{
         position: absolute;
         top: 100%;
@@ -1624,5 +1643,10 @@ body {
         width: 98%;
         margin: 8% auto;
         padding: 16px 12px;
+    }
+}
+@media (max-width: 768px) {
+    .glass-card {
+        display: none; /* or reduce it */
     }
 }
